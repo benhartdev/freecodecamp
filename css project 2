@@ -1,0 +1,206 @@
+body
+ {
+        margin: 0;
+        padding: 0;
+        background: #000000;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+        font-size: 2.5rem;
+        line-height: 1;
+        text-align: center;
+        color: #ffffffb4;
+        margin: 0;
+
+
+
+}
+
+
+.glass {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 600px; 
+        width: 1160px;
+        background: url(https://preview.redd.it/daft-punk-logo-from-new-beat-saber-dlc-v0-v72dne2jrrlc1.jpeg?width=1080&crop=smart&auto=webp&s=d01ff1944ee704d458f6f536d6b0d033e4a7ba49);
+        background-size: cover;
+     
+        border : 8px solid #ffffff blur(100px);
+        overflow : hidden;
+        animation : animate linear 10s infinite;
+
+}
+
+
+
+.shadow
+{
+position: absolute;
+top: calc(38% + 450px);
+left: 50%;
+filter: blur(20px);
+
+
+transform: translate(-5%,-5%);
+height: 35px;
+width: 700px;
+background: #000;
+border-radius: 50%;
+animation: animate linear 20s infinite;
+
+}
+@keyframes shine 
+{
+    0%
+    {
+    transform: skewX(-20deg) translateX(-200px);
+    }
+    50%
+    {
+    transform: skewX(-20deg) translateX(-100px);
+    }
+    100%
+    {
+    transform: skewX(-20deg) translateX(-200px);
+    }
+}
+
+@keyframes animate  {
+
+        0%
+        {
+        transform: translate(-50%,-50%) skewY(3deg);
+        }
+        50% 
+        { 
+        transform: translate(-50%,-50%) skewY(-3deg);
+        }
+        100% 
+        { transform: translate(-50%,-50%) skewY(3deg);
+}
+        
+}
+
+
+  
+  
+  h2 {
+    font-size: 1.25rem;
+    margin: 300px 0;
+    text-align: center;
+    margin-top: 8%;
+  }
+  h3 {
+    font-size: 1.25rem;
+
+    text-align: center;
+    margin-top: 8%;
+}
+  
+h4 {
+    font-size: 0.8rem;
+
+    text-align: center;
+  
+
+
+
+}
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  
+  
+  
+  #headline {
+    margin: 100px 0;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 31%;
+  }
+  
+  ul {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 80%;
+    max-width: 1050px;
+    margin: 0 auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-size: 22px;
+    text-align: justify;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+  
+    text-align: justify;
+  }
+ 
+    #photo1 {
+
+        background-color: #000;
+        width:400px;
+        padding: 20px;
+        border-radius: 10 px;
+        text-align: center;
+        left: 50%;
+
+    }
+    #photo1-wrapper {
+        width: 100%;
+        overflow:hidden;
+        border-radius: 10px;
+        margin-bottom: 15px;
+
+
+    }
+    #photo1-wrapper img {
+
+        display:flex;
+        width:100%;
+        left: 1%;
+    }
+    .wraper {
+                width:20px;
+                margin: 0 auto;
+                background-color: #000;
+                min-height: 100%;
+                position: relative;
+            }
+            .fig1 {
+                position: absolute;
+               left: 20px;
+               scale: 125%;
+               filter: contrast(1.75);
+               top: 1050px;
+            }
+            .fig2 {
+                position: absolute;
+                right: 0;
+                scale: 100%;
+                top: 1500px;
+            }
+            .fig3 {
+                position: absolute;
+                left: 0;
+                margin-left: 185px;
+                top: 1900px;
+                scale: 45%;
+            }
+            .fig4 {
+                position: absolute;
+                right: 0;
+                scale: 65%;
+                top: 2450px;
+                scale: 100%;
+            }
