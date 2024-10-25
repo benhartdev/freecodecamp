@@ -1,1 +1,107 @@
-Project 4 freecodecamp - Landing page
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 4 freecodecamp Landing page</title>
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                background-color: #000000; 
+                background-image:
+                repeating-linear-gradient(
+                    to right, transparent 0 100px, 
+                    #25283b22 100px 101px
+                ),
+                repeating-linear-gradient(
+                    to bottom, transparent 0 100px,
+                    #25283b22 100px 101px
+                );
+            } 
+
+
+            body::before{
+                position: absolute;
+                width: min(2800px, 100vw);
+                top: 0;
+                left: 50%;
+                height: 100%;
+                transform: translateX(-50%);
+                content: '';
+                background-image: url("FOND ben.jpg");
+                background-size: 110%;
+                background-repeat: no-repeat;
+                background-position: top center;
+                pointer-events: none;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="banner">
+            <div class="slider" style="--quantity: 10">
+                <div class="item" style="--position: 1"><img src="1.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un bébé dans une valise, qui porte une couche "></div>
+                <div class="item" style="--position: 2"><img src="2.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant une de ses ex en lingerie fine, adossée a un mur"></div>
+                <div class="item" style="--position: 3"><img src="3.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant une petite fille cambodgienne avec un air un peu sauvage"></div>
+                <div class="item" style="--position: 4"><img src="4.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un autoportrait de lui sur un pont a Saragosse en Espagne"></div>
+                <div class="item" style="--position: 5"><img src="5.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant l'egalité homme femme avec deux mains qui se serrent"></div>
+                <div class="item" style="--position: 6"><img src="6.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un rasta pris en gros plan avec ses dreadlocks"></div>
+                <div class="item" style="--position: 7"><img src="7.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant les pieds d'un bébé contre le torse de son père"></div>
+                <div class="item" style="--position: 8"><img src="8.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un photomontage d'un homme qui ressemble a georges clooney"></div>
+                <div class="item" style="--position: 9"><img src="9.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un moine indien qui leve la main pour faire un salut en tenue traditionelle"></div>
+                <div class="item" style="--position: 10"><img src="10.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant mon fils avec un ballon dans les mains et un effet sportif"></div> 
+            </div>
+            <div class="content">
+                <h1 data-content="CSS ONLY">
+                    CSS ONLY
+                </h1>
+                <div class="author">
+                    <h2>BEN H</h2>
+                    <p><b>Web Developper</b></p>
+                    <p>
+                        Project 4 freecodecamp
+                    </p>
+                </div>
+                <div class="model"></div>
+            </div>   
+        </div>
+
+    </body>
+    </html>
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
