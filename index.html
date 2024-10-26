@@ -1,0 +1,174 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 4 freecodecamp Landing page</title>
+        <style>
+            body {
+                background-color: #000000; 
+                 }
+        </style>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+    </head>
+    <body>
+      <div id="page-wrapper">
+        <header id="header" style="background-color: rgba(197, 53, 27, 0);"> 
+
+            <div class="LOGO_BENH">
+
+            <img id="header-img" src="SIGNATURE BenH photgraphe artiste blanc png.png" width=500px alt="Logo de Benjamin Hoffelé Photographe"/>
+            </div>
+
+
+            <nav id="nav-bar" style="background-color: rgba(115, 96, 167, 0);">
+                <ul class="links">
+                        <li><a class="nav-link" href="#header-img">Acceuil</a></li>
+                        <li><a class="nav-link" href="#hero">A propos</a></li>
+                        <li><a class="nav-link" href="#Petite taille">Petite taille</a></li>
+                        <li><a class="nav-link" href="#Grande taille">Grande taille</a></li>
+                        <li><a class="nav-link" href="#subscribe">Contact</a></li>
+                        <li><a class="nav-link" href="#Shooting">Commander</a></li>
+                </ul>
+            </nav>
+
+             <div class="banner" style="width: 1450px;">
+             <div class="slider" style="--quantity: 10">
+                <div class="item" style="--position: 1"><img src="1.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un bébé dans une valise, qui porte une couche "></div>
+                <div class="item" style="--position: 2"><img src="2.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant une de ses ex en lingerie fine, adossée a un mur"></div>
+                <div class="item" style="--position: 3"><img src="3.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant une petite fille cambodgienne avec un air un peu sauvage"></div>
+                <div class="item" style="--position: 4"><img src="4.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un autoportrait de lui sur un pont a Saragosse en Espagne"></div>
+                <div class="item" style="--position: 5"><img src="5.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant l'egalité homme femme avec deux mains qui se serrent"></div>
+                <div class="item" style="--position: 6"><img src="6.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un rasta pris en gros plan avec ses dreadlocks"></div>
+                <div class="item" style="--position: 7"><img src="7.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant les pieds d'un bébé contre le torse de son père"></div>
+                <div class="item" style="--position: 8"><img src="8.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un photomontage d'un homme qui ressemble a georges clooney"></div>
+                <div class="item" style="--position: 9"><img src="9.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant un moine indien qui leve la main pour faire un salut en tenue traditionelle"></div>
+                <div class="item" style="--position: 10"><img src="10.jpg" alt="Photo d'art du photographe benjamin Hoffelé representant mon fils avec un ballon dans les mains et un effet sportif"></div> 
+            </div>
+            </div>
+        </header>
+            
+        <div class="container">   
+            <section id="hero"> 
+            
+              <h1>PLEXI'Art Print</h1> 
+                    
+              <h2>Watch Our Print Process</h2>
+
+            <iframe 
+            id="video"
+            width="640" height="360" src="https://www.youtube.com/embed/abdgrHHUtZI?list=PLhvhj9iTv1EiQIVrDufIIGnWH_CQCD8G1" title="La qualité YellowKorner" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            
+                
+               
+            </section>
+        
+
+            <section id="pricing">
+              <div class="product" id="Petite taille">
+              <div class="level">Petite taille</div>
+
+              <h2>$600</h2>
+              
+              <ul>
+                <li>plexi 2mm + 2mm</li>
+                <li>Mat ou brillant</li>
+                <li>De 30 cm a 100cm</li>
+                <li>Bords polis</li>
+              </ul>
+              <button class="btn">Select</button>
+              </div>
+
+            <div class="product" id="Grande taille">
+              <div class="level">Grande taille</div>
+
+              <h2>$1200</h2>
+
+              <ul>
+                <li>plexi 2mm + 2mm</li>
+                <li>Mat ou brillant</li>
+                <li>De 100 cm a 250cm</li>
+                <li>Bords polis</li>
+              </ul>
+              <button class="btn">Select</button>
+            </div>
+
+            <div class="product" id="Shooting">
+              <div class="level">Shooting Perso</div>
+
+              <h2>$900</h2>
+
+              <ul>
+                <li>Maquilleuse</li>
+                <li>Styliste</li>
+                <li>15 photos HD</li>
+                <li>5 tirages Fine Art</li>
+              </ul>
+              <button class="btn">Select</button>
+            </div>
+
+            </section>
+
+        </div> 
+           
+
+        <div id="subscribe" styles="background-color:red">
+
+            <h2 class="subscribe">Subscribe to my Newsletter</h2>
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Email:</label>
+                <input name="email" type="email" id="email" placeholder="Enter your email address" required/>
+                <input type="submit" id="submit" value="Submit"/>
+            </form>
+        </div> 
+      </div>
+        
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+             
+                <p><small></small>&copy; 2024 Benjamin Hoffelé Photography. All rights reserved.</small></p>
+
+        </footer>
+    </body>
+    </html>
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
