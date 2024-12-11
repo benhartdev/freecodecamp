@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Photographer Survey Form</title>
+</head>
+
+<body>
+  <div id="imgphoto">
+    <h1 id="title">Photography Enthusiast Survey</h1>
+    <p id="description">Help us learn more about your photography journey!</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>About You</legend>
+        <div>
+          <label id="name-label" for="name">Name </label>
+          <input type="text" id="name" required placeholder="Enter your name" />
+        </div>
+        <div>
+          <label id="email-label" for="email">Email </label>
+          <input type="email" id="email" required placeholder="Enter your email"/>
+        </div>
+        <div>
+          <label id="number-label" for="number">Age (optional) </label>
+          <input type="number" id="number" placeholder="Enter your age" min="3" max="130" />
+        </div>
+        <div>
+          <label for="dropdown">Experience Level </label>
+          <select id="dropdown">
+            <option value="">Select one</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="professional">Professional</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Photography Preferences</legend>
+        <div>
+          <p>Do you own a camera?</p>  
+          <label for="yes">Yes <input type="radio" id="yes" name="camera" value="1" checked /></label>
+          <label for="no">No <input type="radio" id="no" name="camera" value="2" /></label>
+        </div>
+        
+        <div>
+          <label>What type of photography do you enjoy?</label>
+          <div id="photography-types">
+            <label><input type="checkbox" value="portrait" /> Portrait</label>
+            <label><input type="checkbox" value="landscape" /> Landscape</label>
+            <label><input type="checkbox" value="wildlife" /> Wildlife</label>
+            <label><input type="checkbox" value="street" /> Street</label>
+            <label><input type="checkbox" value="macro" /> Macro</label>
+            <label><input type="checkbox" value="astrophotography" /> Astrophotography</label>
+          </div>
+        </div>
+        
+        <div>
+          <label for="photos-week">How many photos do you take per week?</label>
+          <input id="photos-week" type="number" min="0" max="10000" placeholder="e.g., 50" />
+        </div>
+
+        <div>
+          <label for="editing-hours">How many hours do you spend editing photos per week?</label>
+          <input id="editing-hours" type="number" min="0" max="168" placeholder="e.g., 5"/>
+        </div>
+        
+        <div>
+          <label>Favorite photo editing software</label>
+          <div id="editing-software">
+            <label><input type="checkbox" value="photoshop"/> Photoshop</label>
+            <label><input type="checkbox" value="lightroom"/> Lightroom</label>
+            <label><input type="checkbox" value="capture-one"/> Capture One</label>
+            <label><input type="checkbox" value="gimp"/> GIMP</label>
+            <label><input type="checkbox" value="other"/> Other</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Top 5 Favorite Photographers</legend>
+        <ol>
+          <li><input type="text" name="top1" placeholder="Photographer #1"/></li>
+          <li><input type="text" name="top2" placeholder="Photographer #2"/></li>
+          <li><input type="text" name="top3" placeholder="Photographer #3"/></li>
+          <li><input type="text" name="top4" placeholder="Photographer #4"/></li>
+          <li><input type="text" name="top5" placeholder="Photographer #5"/></li>
+        </ol>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Comments</legend>
+        <label for="comment">Feel free to leave any comments about your photography journey!</label>
+        <textarea id="comment" rows="6" cols="30" placeholder="I love capturing wildlife..."></textarea>
+      </fieldset>
+      
+      <input type="submit" id="submit" value="Send">
+    </form>
+    <div id="padding"></div>
+  </div>
+</body>
+</html>

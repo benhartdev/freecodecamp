@@ -1,0 +1,111 @@
+body {
+    color: #000000;
+    background-image: url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/465181467_3961795700721478_7212440991815652871_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=f727a1&_nc_ohc=BsuYQzTtUA4Q7kNvgH_wln8&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=Ag96CXq3tN1zmUGroUVPuz3&oh=00_AYCRu5nO1HjLGegyK4hG0NTc1kO_UC_ToUyExKlLN9DUSw&oe=6739074B");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    padding-top: 50px;
+    font-family: Times, "Times New Roman";
+    font-size: 3em;
+  }
+  
+  h1, #description {
+    text-align: center;
+  }
+  
+  #description {
+    padding-bottom: 20px;
+  }
+  
+  form {
+    
+    background-color: #E0E0E0;
+    border-radius: 20px;
+    width: 35%;
+    margin: auto;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    opacity: 0.9;
+    color: black;
+    font-family: Georgia, serif;
+  }
+  
+  fieldset {
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  fieldset div {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 150%;
+    color: #202020;
+  }
+  
+  input {
+    height: 15px;
+    width: auto;
+  }
+  
+  select {
+    height: 25px;
+    background-color: white;
+    border: 1px solid grey;
+  }
+  
+  input[type="radio"] {
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  #allsupports {
+    flex-direction: unset;
+  }
+
+  #allgenres {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #allsupports label, #allgenres label {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  ol input {
+    width: 95%;
+  }
+  
+  footer {
+    height: 20px;
+  }
+  
+  #padding {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    font-size: 120%;
+  }
