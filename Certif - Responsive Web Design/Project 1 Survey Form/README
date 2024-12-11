@@ -4,7 +4,7 @@
 ## Initialisation 
 Clone the repository of each project. Then launch the index.html file.
 
-## User Stories:
+## User Stories :
 
 1. - [x] You should have a page title in an h1 element with an id of title
 2. - [x] You should have a short explanation in a p element with an id of description
