@@ -1,9 +1,9 @@
 ﻿# FreeCodeCamp Projects
  
-You can find here all of my Certification projects required by FreeCodeCamp for the Certifications. \
+You can find here all of my Certification projects required by FreeCodeCamp for the Certifications.
 
 ## Initialisation 
-Clone the repository of each project. Then launch the index.html file. \
+Clone the repository of each project. Then launch the index.html file.
 
 If a projet requires additional steps, refer to the README.md file project itself.
 
