@@ -1,0 +1,126 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    font-weight: 600;
+    height: 15vh;
+}
+
+main {
+    margin-top: 10%;
+    padding: 50px 50px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    background-color:rgb(193, 193, 248);
+    border-radius: 20px;
+}
+
+.containerSpan > .wavy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+   
+.wavy  {
+
+     position: relative;
+    -webkit-box-reflect: below -35px linear-gradient(transparent,rgba(255, 255, 255, 0.212));
+    }
+
+.wavy span {
+
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 5em;
+    text-transform: uppercase;
+    animation: animate 3s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+
+    }
+
+@keyframes animate {
+        0% {
+            transform: translateY(0px);
+          }
+        20%{
+            transform: translateY(-20px);
+          }
+        40%,100%{
+            transform: translateY(0px);
+          }
+    }
+
+
+.box {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 1.5rem;
+}
+
+.box input {
+    height: 90px;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-left: 5px;
+}
+
+.box button {
+    
+    height: 100px;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(119, 9, 9);
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-weight: 900;
+    
+}
+
+label {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+#resultat {
+    height: 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
